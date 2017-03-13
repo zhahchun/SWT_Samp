@@ -46,6 +46,7 @@ public class Event_key extends ApplicationWindow{
 				break;
 			}
 			System.out.println(string);
+			System.out.println("no key reaction");
 		}
 	};
 	
@@ -74,5 +75,5 @@ public class Event_key extends ApplicationWindow{
 //	addKeyListener按键为什么没反应： 因为没有获得焦点
 //	setFocusable（true）；
 //	获得焦点后 keylistener才有用  >> 照样没反应
-
+//
 }

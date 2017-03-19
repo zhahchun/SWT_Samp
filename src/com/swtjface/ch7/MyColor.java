@@ -94,7 +94,7 @@ public class MyColor extends ApplicationWindow {
 	@Override
 	protected void configureShell(Shell newShell) {
 		super.configureShell(newShell);
-		newShell.setText("New Application");
+		newShell.setText("Draw shapes in certain Color by Extends Canvas");
 	}
 
 	/**
